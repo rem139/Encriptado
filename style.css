@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #F3F5FC;
+}
+header{
+    width: 100%;
+    height: 6vh;
+}
+
+main{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 40%;
+    height: 100%;
+}
+.seccion1{
+    width: 70%;
+}
+
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    resize: none;
+    font-size: 25px;
+    text-transform: lowercase;
+    background-color: #F3F5FC;
+    border: none;
+    
+}
+.contener-advertencia{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.contenedor-botones{
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-encriptar, .btn-desencriptar{
+    width: 25%;
+    height: 40px;
+    border-radius: 2rem;
+
+}
+
+.btn-encriptar{
+    background-color: darkblue;
+    color: #F3F5FC;
+}
+.btn-encriptar:hover{
+    background-color:#F3F5FC;
+    color: darkblue;
+    transition: 1s;
+}
+.btn-desencriptar{
+    background-color:#F3F5FC;
+    color: darkblue;
+}
+.btn-desencriptar:hover{
+    background-color: darkblue;
+    color: #F3F5FC;
+    transition: 1s;
+}
+.btn-copiar{
+    border-radius: 2rem;
+    background-color: white
+}
+.seccion2{
+    width: 30%;
+    background-color: white;
+    border-radius: 25px;
+    margin-right: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px black;
+
+}
+.munheco{
+    width: 100%;
+    height: 50%;
+    padding-top: 75px;
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.subtitulo{
+    margin-top: 100px;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.parrafo{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.contenedor-resultado{
+    width: 100%;
+    height: 50%;
+    margin-top: 50px;
+    text-align: center; 
+}
+
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.btn-copiar{
+    width: 35%;
+    height: 45px;
+    display: block;
+    margin: auto;
+}
+
+.btn-copiar:hover{
+    background-color: blueviolet;
+    color: #F3F5FC;
+    transition: 1s;
+}
+
+footer{
+    width: 100%;
+    height: 6vh;
+    text-align: center;
+}
+
+.ocultar{
+    display: none;
+}
